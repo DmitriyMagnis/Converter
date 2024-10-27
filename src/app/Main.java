@@ -17,6 +17,7 @@ public class Main {
         System.out.println("Result is miles: " + miles);
         System.out.println("Result is kilometers: " + kilometers);
 
+        System.out.println("Version 1.0.1");
     }
     private static double convKmsToMiles(double kms) {
         return kms * CONV_K_M;
